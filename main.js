@@ -1,1 +1,1 @@
-
+const placeHolderTest = 'test';
