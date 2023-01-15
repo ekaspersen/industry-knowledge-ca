@@ -1,0 +1,35 @@
+{
+  "name": "industry-knowledge-ca",
+  "version": "1.0.0",
+  "description": "Team Project Course Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "npx prettier --write *.{html,js}",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekaspersen/industry-knowledge-ca.git"
+  },
+  "author": "Team 2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekaspersen/industry-knowledge-ca/issues"
+  },
+  "homepage": "https://github.com/ekaspersen/industry-knowledge-ca#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.21",
+    "prettier": "2.8.2",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
