@@ -8,4 +8,76 @@
   .inner {
     @apply mx-auto max-w-[1100px] px-16;
   }
+  .skills-pattern {
+    @apply absolute top-6 right-6;
+  }
+  .skills-text {
+    @apply absolute bottom-6 left-6 text-white font-bold text-2xl;
+  }
 }
+/* ______________________________________
+    Skills Section
+*/
+.skills-area {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 182px);
+  grid-template-areas:
+    'skills-item-one skills-item-one'
+    'skills-item-one skills-item-one'
+    'skills-item-two skills-item-three'
+    'skills-item-four skills-item-four'
+    'skills-item-five skills-item-five'
+    'skills-item-six skills-item-six';
+}
+@media screen and (min-width: 768px) {
+  .skills-area {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 182px);
+    grid-template-areas:
+      'skills-item-one skills-item-one skills-item-two skills-item-three'
+      'skills-item-one skills-item-one skills-item-four skills-item-four'
+      'skills-item-five skills-item-five skills-item-five skills-item-five'
+      'skills-item-six skills-item-six skills-item-six skills-item-six';
+  }
+}
+@media screen and (min-width: 1100px) {
+  .skills-area {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 182px);
+    grid-template-areas:
+      'skills-item-one skills-item-one skills-item-two skills-item-three skills-item-four skills-item-four'
+      'skills-item-one skills-item-one skills-item-five skills-item-five skills-item-six skills-item-six';
+  }
+}
+.skills-area > div {
+  @apply rounded-lg;
+}
+.skills-item-one {
+  grid-area: skills-item-one;
+  @apply bg-blue;
+}
+.skills-item-two {
+  grid-area: skills-item-two;
+  @apply bg-yellow;
+}
+.skills-item-three {
+  grid-area: skills-item-three;
+  @apply bg-pink;
+}
+.skills-item-four {
+  grid-area: skills-item-four;
+  @apply bg-orange;
+}
+.skills-item-five {
+  grid-area: skills-item-five;
+  @apply bg-green;
+}
+.skills-item-six {
+  grid-area: skills-item-six;
+  @apply bg-purple;
+}
+/* 
+    Skills Section
+______________________________________*/
