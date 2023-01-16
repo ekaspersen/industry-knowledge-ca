@@ -6,6 +6,7 @@
 
 @layer components {
     .inner {
+        /*Put me on every section except for .my-work*/
         @apply mx-auto max-w[1100px]
     }
 }
