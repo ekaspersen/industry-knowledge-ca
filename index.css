@@ -10,12 +10,27 @@
     @apply mx-auto max-w[1100px];
   }
   .btn {
-    @apply rounded-full font-bold w-fit flex justify-center items-center py-2 px-7 font-bold text-sm font-plusjakartasans text-white cursor-pointer duration-200 md:text-base;
+    @apply rounded-full font-bold w-fit flex justify-center items-center py-2 px-7 font-bold text-sm font-plusjakartasans text-white cursor-pointer duration-200 md:text-base md:py-3.5 md:px-[45px];
   }
   .btn1 {
     @apply btn bg-orange hover:bg-yellow my-8;
   }
   .btn2 {
     @apply btn bg-black  hover:bg-blue;
+  }
+  .round-btn {
+    @apply flex rounded-full bg-black justify-center items-center text-white w-16 h-16 cursor-pointer duration-200 hover:bg-blue  my-8 mx-8;
+  }
+  .heading-lg {
+    @apply font-bold font-plusjakartasans text-black text-[56px] leading-[70px];
+  }
+  .heading-m {
+    @apply font-bold font-plusjakartasans text-black text-[40px] leading-[51px];
+  }
+  .heading-s {
+    @apply font-bold font-plusjakartasans text-black text-[32px] leading-[40px];
+  }
+  .body-text {
+    @apply font-medium font-plusjakartasans text-gray text-[18px] leading-[28px];
   }
 }
