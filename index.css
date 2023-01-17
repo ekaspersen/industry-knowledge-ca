@@ -18,7 +18,7 @@
   .btn2 {
     @apply btn bg-black  hover:bg-blue;
   }
-  .roundbtn {
-    @apply rounded-full bg-black w-fit justify-center items-center text-white p-6    my-8 mx-8;
+  .round-btn {
+    @apply flex rounded-full bg-black justify-center items-center text-white w-16 h-16 cursor-pointer duration-200 hover:bg-blue  my-8 mx-8;
   }
 }
