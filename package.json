@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "npx prettier --write *.{html,css,js}",
+    "lint": "npx eslint *.js",
     "prepare": "husky install"
   },
   "repository": {
