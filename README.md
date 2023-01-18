@@ -61,7 +61,7 @@ Easier way to write in tailwind elements, without writing the same long code man
 
 ### Useful resources
 
-- [Example resource 1](https://www.frontendmentor.io/challenges/singlepage-design-portfolio-2MMhyhfKVo) -
+- [www.frontendmentor.io](https://www.frontendmentor.io/challenges/singlepage-design-portfolio-2MMhyhfKVo) -
 
 ## Authors
 
