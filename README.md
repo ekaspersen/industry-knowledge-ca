@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://industry-knowledge-ca.vercel.app)
+- Live Site URL: [Live site URL](https://industry-knowledge-ca.vercel.app)
 
 ## My process
 
