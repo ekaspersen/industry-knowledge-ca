@@ -11,6 +11,7 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Run commands](#run-commands)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -58,6 +59,13 @@ Easier way to write in tailwind elements, without writing the same long code man
   }
 }
 ```
+
+### Run commands
+
+- 1. installing node modules: [npm i]
+- 2. create a build directory: [npm run build]
+- 3. run the script inside package.json: [npm run dev]
+- 4. preview the build locally: [npm run preview]
 
 ### Useful resources
 
