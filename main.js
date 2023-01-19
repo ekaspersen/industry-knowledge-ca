@@ -3,7 +3,7 @@ const imgSlideControls = document.querySelector('#img-slide');
 let mobileSlide = 3;
 let prevWidth = window.innerWidth;
 function handleMobileSlide(num) {
-  imgGalleryContainer.querySelector(`img:nth-child(${num})`).scrollIntoView({ inline: 'center' });
+  imgGalleryContainer.querySelector(`img:nth-child(${num})`).scrollIntoView({ block: 'end', inline: 'center' });
 }
 
 handleMobileSlide(mobileSlide);
