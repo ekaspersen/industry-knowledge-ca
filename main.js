@@ -1,6 +1,7 @@
 const imgGalleryContainer = document.querySelector('#my-work-img-gallery');
 const imgSlideControls = document.querySelector('#img-slide');
 let mobileSlide = 3;
+let prevWidth = window.innerWidth;
 function handleMobileSlide(num) {
   imgGalleryContainer.querySelector(`img:nth-child(${num})`).scrollIntoView({ inline: 'center' });
 }
@@ -27,5 +28,8 @@ imgSlideControls.addEventListener('click', (event) => {
   }
 });
 window.addEventListener('resize', () => {
-  handleMobileSlide(mobileSlide);
+  if (prevWidth !== window.innerWidth) {
+    handleMobileSlide(mobileSlide);
+    prevWidth = window.innerWidth;
+  }
 });
