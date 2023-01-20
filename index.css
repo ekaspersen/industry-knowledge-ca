@@ -13,7 +13,7 @@
     @apply mx-auto max-w-[1100px];
   }
   .card {
-    @apply p-6 flex flex-col justify-between text-[#fff] font-bold text-2xl;
+    @apply p-6 flex flex-col justify-between text-[#fff] font-bold text-2xl cursor-pointer;
   }
   .btn {
     @apply rounded-full font-bold w-fit flex justify-center items-center py-3 px-7 font-bold text-sm font-plusjakartasans text-white cursor-pointer duration-200 md:text-base md:py-4 md:px-[45px] md:min-w-[228px];
