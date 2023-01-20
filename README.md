@@ -55,7 +55,7 @@ Easier way to write in tailwind elements, without writing the same long code man
 @layer components {
   .inner {
     /*Put me on every section except for .my-work*/
-    @apply mx-auto max-w[1100px];
+    @apply mx-auto max-w-[1100px];
   }
 }
 ```
