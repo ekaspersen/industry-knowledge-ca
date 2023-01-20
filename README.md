@@ -82,9 +82,10 @@ Easier way to write in tailwind elements, without writing the same long code man
 - Hreinn Gylfason, 
 - Ilona Raugalaite, 
 - Jonas Aarhaug , 
-- ![my picture!](assets/uzo.jpg)
 - Uzochukwu Cecilia Oloh 
-- ![the project i worked on!](screenshot/about-section.jpg)I worked on the the about section with the help of Carl Linus Hedlund.
+- ![my picture!](assets/uzo.jpg)
+- I worked on the the about section with the help of Carl Linus Hedlund ↓↓ 
+- ![the project i worked on!](screenshot/about-section.jpg)
 
 ## Acknowledgments
 
