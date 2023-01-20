@@ -19,7 +19,7 @@
         <nav class="lg:px-8">
           <div class="flex w-full items-center justify-between py-6">
             <div class="flex items-center">
-              <img class="w-12 h-12" src="./assets/logo.svg" alt="company logo" />
+              <img class="w-12 h-12 md:w-16 md:h-16" src="./assets/logo.svg" alt="company logo" />
             </div>
             <div class="ml-8">
               <a
@@ -72,40 +72,60 @@
       </div>
     </section>
     <section id="about-me">
-      <div class="container mx-auto px-4 max-w-7xl">
-        <div class="md:flex rounded-xl p-8 md:p-0">
+      <div class="container inner">
+        <div class="flex flex-col gap-[69px] md:gap-0 md:flex-row lg:gap-[125px] max-w-{75rem} m-auto">
           <img
-            class="w-72 h-auto md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+            class="w-[300px] md:-translate-x-14 md:w-[364px] lg:translate-x-0 lg:w-[445px] m-auto"
             src="/assets/image-amy.webp"
             alt="amy image"
           />
-
-          <div class="p-4 text-base pt-6 md:p-4 text-center md:text-left space-y-4">
-            <h2 class="font-bold">I’m Amy, and I’d love to work on your next project</h2>
-            <p class="mt-1 text-sm text-gray">
+          <div
+            class="flex flex-col align-center justify-center text-base pt-6 md:leading-7 text-center md:text-left gap-6 lg:gap-8"
+          >
+            <h2 class="font-bold text-2xl">I’m Amy, and I’d love to work on your next project</h2>
+            <p class="text-gray">
               I love working with others to create beautiful design solutions. I’ve designed everything from brand
               illustrations to complete mobile apps. I’m also handy with a camera!
             </p>
-            <a href="#" class="bg-orange text-white rounded-3xl inline-flex items-center px-6 py-2 text-sm"
-              >Free Consultation
-            </a>
+            <div class="flex justify-center md:justify-start">
+              <a href="#" class="btn bg-orange hover:bg-yellow">Free Consultation </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <section id="my-work">
-      <div class="inner">My Work</div>
+      <h2 class="text-2xl text-center font-bold">My Work</h2>
+      <div
+        id="my-work-img-gallery"
+        class="flex flex-row gap-4 my-14 h-[180px] mx-auto cursor-grab overflow-auto scroll-smooth sm:max-w-[1440px] sm:h-auto sm:gap-8 lg:overflow-hidden"
+      >
+        <img class="rounded-lg" src="assets/image-slide-1.jpg" alt="#" />
+        <img class="rounded-lg" src="assets/image-slide-2.jpg" alt="#" />
+        <img class="rounded-lg" src="assets/image-slide-3.jpg" alt="#" />
+        <img class="rounded-lg" src="assets/image-slide-4.jpg" alt="#" />
+        <img class="rounded-lg" src="assets/image-slide-5.jpg" alt="#" />
+      </div>
+      <div class="flex gap-4 items-center justify-center">
+        <div id="img-slide" class="flex flex-row gap-4">
+          <button id="arrow-left" class="round-btn">
+            <img class="pointer-events-none" src="assets/icon-arrow-left.svg" alt="Arrow Left" />
+          </button>
+          <button id="arrow-right" class="round-btn">
+            <img class="pointer-events-none" src="assets/icon-arrow-right.svg" alt="Arrow Right" />
+          </button>
+        </div>
+      </div>
     </section>
     <section id="book-call">
-      <div class="inner">Book Call</div>
+      <div class="container mx-auto px-4 max-w-7xl">Book Call</div>
     </section>
     <footer>
-      <div class="inner">
+      <div class="container mx-auto px-4 max-w-7xl">
         <div class="lg:px-8">
           <div class="flex w-full items-center justify-between py-6">
             <div class="flex items-center">
-              <img class="w-12 h-12" src="./assets/logo.svg" alt="company logo" />
+              <img class="w-12 h-12 md:w-16 md:h-16" src="./assets/logo.svg" alt="company logo" />
             </div>
             <div class="ml-8">
               <a

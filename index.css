@@ -9,17 +9,17 @@
     /*Put me on every section except for .my-work*/
     @apply mx-auto max-w-[1100px];
   }
-  .skills-pattern {
-    @apply absolute top-6 right-6;
-  }
   .btn {
-    @apply rounded-full font-bold w-fit flex justify-center items-center py-2 px-7 font-bold text-sm font-plusjakartasans text-white cursor-pointer duration-200 md:text-base md:py-3.5 md:px-[45px];
+    @apply rounded-full font-bold w-fit flex justify-center items-center py-3 px-7 font-bold text-sm font-plusjakartasans text-white cursor-pointer duration-200 md:text-base md:py-4 md:px-[45px] md:min-w-[228px];
   }
-  .skills-text {
-    @apply absolute bottom-6 left-6 text-white font-bold text-2xl;
+  .btn1 {
+    @apply btn bg-orange hover:bg-yellow;
+  }
+  .btn2 {
+    @apply btn bg-black  hover:bg-blue;
   }
   .round-btn {
-    @apply flex rounded-full bg-black justify-center items-center text-white w-16 h-16 cursor-pointer duration-200 hover:bg-blue  my-8 mx-8;
+    @apply flex rounded-full bg-black justify-center items-center text-white w-16 h-16 cursor-pointer duration-200 hover:bg-blue;
   }
   .heading-lg {
     @apply font-bold font-plusjakartasans text-black text-[56px] leading-[70px];
