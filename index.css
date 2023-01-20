@@ -33,4 +33,10 @@
   .body-text {
     @apply font-medium font-plusjakartasans text-gray text-[18px] leading-[28px];
   }
+  .skills-text {
+    @apply text-white font-bold text-2xl absolute left-6 bottom-6;
+  }
+  .skills-pattern {
+    @apply absolute right-6 top-6;
+  }
 }
