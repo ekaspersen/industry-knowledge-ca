@@ -76,7 +76,15 @@ Easier way to write in tailwind elements, without writing the same long code man
 - Eskil Hagen (Project Manager)
 - Mats Fjeldstad (Scrum Master)
 - Carl Linus Hedlund & Christina Fugelsnes (qa Engineers)
-- Snorre Kolnes Røgenes, Fariad Yousef, Hreinn Gylfason, Ilona Raugalaite, Uzochukwu Cecilia Oloh, Jonas Aarhaug (Developers)
+- I Christina was one of the QA Engineers, I have review my Front-end collage on their code, help when needed and merging to our website.
+  ![my review!](assets/my-review.png)
+  ![my picture!](assets/picture-ch.jpg)
+- Snorre Kolnes Røgenes,
+- Fariad Yousef,
+- Hreinn Gylfason,
+- Ilona Raugalaite,
+- Uzochukwu Cecilia Oloh,
+- Jonas Aarhaug (Developers)
 
 ## Acknowledgments
 
