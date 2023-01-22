@@ -55,7 +55,7 @@ Easier way to write in tailwind elements, without writing the same long code man
 @layer components {
   .inner {
     /*Put me on every section except for .my-work*/
-    @apply mx-auto max-w[1100px];
+    @apply mx-auto max-w-[1100px];
   }
 }
 ```
@@ -80,7 +80,7 @@ Easier way to write in tailwind elements, without writing the same long code man
 - Snorre Kolnes Røgenes, 
 - Fariad Yousef, 
 - Hreinn Gylfason, 
-- Ilona Raugalaite, 
+- Ilona Raugalaite (header, header text, footer, Jira roadmap) 
 - Jonas Aarhaug , 
 - Uzochukwu Cecilia Oloh 
 - ![my picture!](assets/uzo.jpg)
