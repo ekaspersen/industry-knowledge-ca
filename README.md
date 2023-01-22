@@ -76,14 +76,17 @@ Easier way to write in tailwind elements, without writing the same long code man
 - Eskil Hagen (Project Manager)
 - Mats Fjeldstad (Scrum Master)
 - Carl Linus Hedlund & Christina Fugelsnes (qa Engineers)
-
-Developers:
+- (Developers) ↓↓ 
 - Snorre Kolnes Røgenes, 
 - Fariad Yousef, 
 - Hreinn Gylfason, 
-- Ilona Raugalaite (header, heading text, footer, Jira roadmap)
-- Uzochukwu Cecilia Oloh, 
-- Jonas Aarhaug
+- Ilona Raugalaite, (header, heading text, footer, Jira roadmap)
+- Jonas Aarhaug , 
+- Uzochukwu Cecilia Oloh 
+- ![my picture!](assets/uzo.jpg)
+- I worked on the the about section with the help of Carl Linus Hedlund ↓↓ 
+- ![the project i worked on!](screenshot/about-section.jpg)
+
 
 ## Acknowledgments
 
